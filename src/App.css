@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-image: url('https://cdn-lerniase-images-prod.azureedge.net/d69f4cc1c20c47b497312bd3c84b113a/2a375937697f4adaa758cb3daea4cb26.jpg?fit=crop&crop=Faces%2CEntropy&auto=format,compress&w=1300&h=683&s=e96ab0d3307eb524fc49b1bc3e19bf73');
+  position:fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Navbar-nav {
+  height:40vh !important;
+  /* min-height: auto !important;
+  min-width:80% !important; */
+  display:flex !important;
+  justify-content:start !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* box-shadow: none !important; */
+  /* background-color:blueviolet !important; */
+
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.mx-10 {
+  margin-left:5rem;
+  /* margin-right: 2rem; */
+  /* background-color:blue; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.mx-11 {
+  margin-left:4rem;
 }
+.mx-12 {
+  margin-right:14rem !important;
+}
+.mx-13 {
+  margin-right:18rem !important;
+}
+
+
+
+.btn-bluee {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.btn-bluee {
+   /* margin: 0.1px; */
+   padding: 5px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   /* color: white;             */
+   /* box-shadow: 0 0 0.1px #eee; */
+   border-radius: 5px;
+   display: block;
+ }
+
+ .btn-bluee:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+

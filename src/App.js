@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import ARBETSLIVSERFARENHET from './components/ARBETSLIVSERFARENHET';
+import FÄRDIGHETER from './components/FÄRDIGHETER'
+import Språkkunskaper from './components/Språkkunskaper'
+import UTBILDNINGAR from './components/UTBILDNINGAR'
+import Kontakt from './components/Kontakt';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      
+      <Navbar />
+
+      <Switch>
+        <Route exact path="/ARBETSLIVSERFARENHET" component={ARBETSLIVSERFARENHET} />   
+        <Route exact path="/FÄRDIGHETER" component={FÄRDIGHETER} />   
+        <Route exact path="/Språkkunskaper" component={Språkkunskaper} />   
+        <Route exact path="/UTBILDNINGAR" component={UTBILDNINGAR} />   
+        <Route exact path="/Kontakt" component={Kontakt} />   
+
+      </Switch>
+
+
+    </Router>
+    
+    
   );
 }
 
