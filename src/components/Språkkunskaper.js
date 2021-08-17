@@ -9,7 +9,7 @@ const Språkkunskaper = ( ) => {
           <div className="container-fluid  ">
             <div className="card-body col-md-12  mx-sm-5 mt-5  text-dark d-flex justify-content-between  align-content-center text-start  animate__animated animate__backInDown">
                     <ul>
-                    <label className="border-bottom  mt-3 text-info" ><h4>SPRÅKKUNSKAPER</h4></label>
+                    <label className="border-bottom  mt-5 text-info" ><h4>SPRÅKKUNSKAPER</h4></label>
                      <li> Svenska - Flytande i tal och skrift.</li>
                      <li> Persiska - Flytande i tal och skrift.</li>
                      <li> Engelska - Goda kunskaper i tal och skrift.</li>
