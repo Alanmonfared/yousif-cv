@@ -24,7 +24,7 @@ body {
   /* min-height: auto !important;
   min-width:80% !important; */
   display:flex !important;
-  justify-content:start !important;
+  /* justify-content:start ; */
   align-items: center;
   /* box-shadow: none !important; */
   /* background-color:blueviolet !important; */

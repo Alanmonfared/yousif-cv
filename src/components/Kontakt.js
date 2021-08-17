@@ -15,7 +15,7 @@ const Kontakt = () => {
             <label className="mb-3  mt-5 text-info border-bottom text-end" ><h4>KONTAKT</h4></label>
                 <h6>Yousif Azarakhsh Monfared</h6>
                     
-                    <i className="fas fa-id-card"><span className=" mx-2">1983-12-08-4653</span></i>
+                    <i className="fas fa-id-card"><span className=" mx-2">1983-12-08-****</span></i>
                      <br />
                     
                       <i className="fas fa-at"><a className="mx-2" href="http://www.gmail.com">yousif.azarakhshmonfared@edu.arboga.se</a></i>
