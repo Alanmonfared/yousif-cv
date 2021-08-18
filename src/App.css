@@ -72,3 +72,10 @@ body {
    text-decoration: none;
  }
 
+
+ .activE {
+  /* text-decoration: underline; */
+  background: rgba(0, 0, 0, 0.39);
+  color: rgb(255, 255, 255) !important;
+  
+}

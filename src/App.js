@@ -16,11 +16,11 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route exact path="/ARBETSLIVSERFARENHET" component={ARBETSLIVSERFARENHET} />   
-        <Route exact path="/FÄRDIGHETER" component={FÄRDIGHETER} />   
-        <Route exact path="/Språkkunskaper" component={Språkkunskaper} />   
-        <Route exact path="/UTBILDNINGAR" component={UTBILDNINGAR} />   
-        <Route exact path="/Kontakt" component={Kontakt} />   
+        <Route exact  path="/ARBETSLIVSERFARENHET" component={ARBETSLIVSERFARENHET} />   
+        <Route exact  path="/FÄRDIGHETER" component={FÄRDIGHETER} />   
+        <Route exact  path="/Språkkunskaper" component={Språkkunskaper} />   
+        <Route exact  path="/UTBILDNINGAR" component={UTBILDNINGAR} />   
+        <Route exact  path="/Kontakt" component={Kontakt} />   
 
       </Switch>
 
