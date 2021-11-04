@@ -18,7 +18,17 @@ const ARBETSLIVSERFARENHET = ( ) => {
                              <small>Transportföretag, pågående </small>
                    <li><h6>Bokbinderi, 2013-2020</h6></li>
                              <small>Gruppledare på Aros bokbinderi</small>
+                   
                     </ul>
+              <div>
+              <label className="mb-3  mt-5 text-info border-bottom text-end" ><h4>PRAKTIK</h4></label>
+              
+                              <li>WSP, 2021</li>
+                              <li>Strukton Rail AB, 2021</li>
+                    
+              </div>
+              
+              
               <div>
                 <img className="col-md-6 col-lg-8  mx-3 col-sm-12 d-none d-sm-block mt-5" src="https://changes.ie/wp-content/uploads/2019/03/Learning-Style-Tab-min.jpg" alt="" height="" />
               </div>
