@@ -2,17 +2,19 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  color: white !important;
+
 }
 
 
 
 body {
-  background-image: url('https://cdn-lerniase-images-prod.azureedge.net/d69f4cc1c20c47b497312bd3c84b113a/2a375937697f4adaa758cb3daea4cb26.jpg?fit=crop&crop=Faces%2CEntropy&auto=format,compress&w=1300&h=683&s=e96ab0d3307eb524fc49b1bc3e19bf73');
-  position:fixed;
+  background-image: url('https://www.framtid.se/files/1200x500/shutterstock_575726662.jpg?1593971741');
+  /* position:fixed; */
   min-width: 100%;
-  min-height: 100%;
+  max-height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
 
 
@@ -20,7 +22,7 @@ body {
 
 
 .Navbar-nav {
-  height:40vh !important;
+  height:60vh !important;
   /* min-height: auto !important;
   min-width:80% !important; */
   display:flex !important;
