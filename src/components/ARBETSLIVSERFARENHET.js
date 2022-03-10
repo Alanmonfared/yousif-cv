@@ -35,6 +35,7 @@ const ARBETSLIVSERFARENHET = () => {
 
             <li>WSP, 2021</li>
             <li>Strukton Rail AB, 2021</li>
+            <li>Hitachi Energy, STRI 2022</li>
           </div>
 
           <div>
