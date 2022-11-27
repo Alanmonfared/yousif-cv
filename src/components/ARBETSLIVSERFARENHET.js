@@ -20,13 +20,17 @@ const ARBETSLIVSERFARENHET = () => {
             </li>
             <small>Restaurangbranschen</small>
             <li>
-              <h6>Egenföretagare, 2019</h6>
+              <h6>Egenföretagare 2020-2021</h6>
             </li>
-            <small>Transportföretag, pågående </small>
+            <small>Transportföretag </small>
             <li>
               <h6>Bokbinderi, 2013-2020</h6>
             </li>
             <small>Gruppledare på Aros bokbinderi</small>
+            <li>
+              <h6>Hitachi Energy , STRI pågående</h6>
+            </li>
+            <small>Provledare</small>
           </ul>
           <div>
             <label className="mb-3  mt-5 text-info border-bottom text-end">
